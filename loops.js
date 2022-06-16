@@ -73,3 +73,15 @@ for (let i = 0; i <= 15 ; i++) {
 // >> 9
 // ==========================================
 
+for (let i = 0; i < 10 ; i++) {
+
+    let preFix = null;
+    if (i >= 3 && i <= 5){
+       preFix = '>';
+    }
+    else if (i > 5) {
+        preFix = '>>';
+    }
+
+    console.log(preFix + i);
+}
