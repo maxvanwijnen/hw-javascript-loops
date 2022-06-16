@@ -42,7 +42,7 @@ for (let i = 0; i < 5 ; i++) {
 
 for (let i = 0; i <= 15 ; i++) {
     let evenOrOdd = null;
-    if (i % 2 == 0){
+    if (i % 2 === 0){
         evenOrOdd = 'even';
     }
     else {
